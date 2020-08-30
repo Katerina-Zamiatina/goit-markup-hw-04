@@ -278,9 +278,12 @@ img {
 	margin-right: 30px;
 }
 
-.staff-list .title {
-	margin-top: 30px;
+.staff-content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 
+.staff-list .title {
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
@@ -290,12 +293,22 @@ img {
 }
 
 .staff-list .text {
-	padding-bottom: 30px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
+}
+
+/* Clients */
+
+.clients {
+	background-color: thistle;
+}
+
+.clients-list {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /* Footer */
@@ -340,7 +353,7 @@ img {
 	margin-bottom: 9px;
 }
 
-/* Портфолио */
+/* Portfolio */
 
 .button-list {
 	display: flex;
@@ -396,7 +409,6 @@ img {
 }
 
 .gallery .title {
-	margin-top: 20px;
 	margin-bottom: 4px;
 	padding-left: 24px;
 	padding-right: 24px;
@@ -411,10 +423,17 @@ img {
 .gallery .text {
 	padding-left: 24px;
 	padding-right: 24px;
-	padding-bottom: 20px;
 
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
 	letter-spacing: 0.03em;
+}
+
+.gallery-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
 }
