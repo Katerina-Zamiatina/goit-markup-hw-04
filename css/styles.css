@@ -172,20 +172,37 @@ img {
 }
 
 .contacts .item + .item {
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .contacts-header {
-	color: var(--primary-text-color);
+	display: flex;
+
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
 }
 
 .contacts-header:hover,
 .contacts-header:focus {
 	color: var(--accent-color);
+}
+
+.icon-envelope {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+	align-self: center;
+	fill: currentColor;
+}
+
+.icon-smartphone {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+	fill: currentColor;
 }
 
 /* HERO */
@@ -264,56 +281,32 @@ img {
 	margin-right: 30px;
 }
 
-.item.mark::before {
+.features > .item::before {
 	content: "";
 	display: block;
-
 	height: 120px;
 	margin-bottom: 30px;
 	border-radius: 4px;
 	background-repeat: no-repeat;
+	background-size: 70px 70px;
+	background-position: center;
+	background-color: var(--bg-secondary);
+}
+
+.icon-mark::before {
 	background-image: url(../images/antenna.svg);
-	background-position: center;
-	background-color: var(--bg-secondary);
 }
 
-.item.punctuality::before {
-	content: "";
-	display: block;
-
-	height: 120px;
-	margin-bottom: 30px;
-	border-radius: 4px;
-	background-repeat: no-repeat;
+.icon-punctuality::before {
 	background-image: url(../images/clock.svg);
-	background-position: center;
-	background-color: var(--bg-secondary);
 }
 
-.item.scheduling::before {
-	content: "";
-	display: block;
-
-	height: 120px;
-	margin-bottom: 30px;
-	border-radius: 4px;
-	background-repeat: no-repeat;
+.icon-scheduling::before {
 	background-image: url(../images/diagram.svg);
-	background-position: center;
-	background-color: var(--bg-secondary);
 }
 
-.item.technology::before {
-	content: "";
-	display: block;
-
-	height: 120px;
-	margin-bottom: 30px;
-	border-radius: 4px;
-	background-repeat: no-repeat;
+.icon-technology::before {
 	background-image: url(../images/astronaut.svg);
-	background-position: center;
-	background-color: var(--bg-secondary);
 }
 
 /* Work */
