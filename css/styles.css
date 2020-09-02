@@ -414,12 +414,31 @@ img {
 /* Clients */
 
 .clients {
-	background-color: thistle;
+	/* background-color: thistle; */
 }
 
 .clients-list {
-	display: flex;
+	display: inline-flex;
 	flex-wrap: wrap;
+}
+
+.clients-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.clients-link:hover {
+	border: 1px solid var(--accent-color);
+	fill: var(--accent-color);
+}
+.clients-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 90px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	fill: #afb1b8;
 }
 
 /* Footer */
