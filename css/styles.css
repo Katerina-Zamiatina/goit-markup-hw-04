@@ -192,6 +192,7 @@ img {
 	width: 16px;
 	height: 12px;
 	margin-right: 10px;
+	align-self: center;
 	fill: currentColor;
 }
 
@@ -199,6 +200,7 @@ img {
 	width: 16px;
 	height: 12px;
 	margin-right: 10px;
+	align-self: center;
 	fill: currentColor;
 }
 
