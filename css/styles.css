@@ -33,7 +33,7 @@ img {
 	white-space: nowrap;
 }
 
-.list {
+ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -520,7 +520,7 @@ img {
 	fill: var(--text-white);
 }
 
-.footer .social-item:not(:last-child) {
+.page-footer .social-item:not(:last-child) {
 	margin-right: 10px;
 }
 
@@ -543,6 +543,7 @@ img {
 	font-size: 16px;
 	line-height: 1.6;
 	letter-spacing: 0.03em;
+	cursor: pointer;
 }
 
 .button-item:not(:last-child) {
